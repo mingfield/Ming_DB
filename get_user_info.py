@@ -1,6 +1,4 @@
 #coding=utf-8
-#author:微信公众号：大数据前沿
-#查看代码讲解，视频教程，请微信添加好友搜索公众号[大数据前沿]查看历史消息获取。
 
 import itchat
 import json
@@ -13,9 +11,7 @@ sex_dict['1'] = "男"
 sex_dict['2'] = "女"
 
 message_dict = {
-    "二胖":"更多好玩的内容请关注公众号：大数据前沿（id:bigdataqianyan）",
-    "你好":"你好啊，这条消息是自动回复的。",
-    "备忘录":"早上10.30参加产品发布会\n今晚隔壁王总找你开会"
+    "你好":"你好啊，这条消息是自动回复的。"
 }
 #下载好友头像
 def download_images(frined_list):
