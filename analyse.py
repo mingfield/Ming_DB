@@ -1,6 +1,5 @@
 #coding=utf-8
-#author:微信公众号：大数据前沿
-#查看代码讲解，视频教程，请微信添加好友搜索公众号[大数据前沿]查看历史消息获取。
+
 import json
 import re
 from pyecharts import Bar
@@ -31,7 +30,7 @@ def get_pie(item_name,item_name_list,item_num_list):
     pie.render(out_file_name)
 
 def get_bar(item_name,item_name_list,item_num_list):
-    subtitle = "微信公众号：大数据前沿"
+    subtitle = "大数据"
     bar = Bar(item_name,page_title = item_name,title_text_size=30,title_pos='center',\
         subtitle = subtitle,subtitle_text_size = 25)
     
@@ -46,7 +45,7 @@ def get_bar(item_name,item_name_list,item_num_list):
 
 
 def get_map(item_name,item_name_list,item_num_list):
-    subtitle = "微信公众号：大数据前沿"
+    subtitle = "大数据"
     _map = Map(item_name,width=1300,height= 800,title_pos='center',title_text_size=30,\
         subtitle = subtitle,subtitle_text_size = 25)
     _map.add("", item_name_list, item_num_list, maptype='china', is_visualmap=True, visual_text_color='#000')
